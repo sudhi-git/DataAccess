@@ -48,5 +48,29 @@ public class DocRoot {
 	public void setDestLoc(String destLoc) {
 		DestLoc = destLoc;
 	}
-	
+
+	public Quantites getQty() {
+		return qty;
+	}
+
+	public void setQty(Quantites qty) {
+		this.qty = qty;
+	}
+
+	public ArrayList<Items> getItems() {
+		return items;
+	}
+
+	public void setItems(ArrayList<Items> items) {
+		this.items = items;
+	}
+
+	public ArrayList<Stage> getStages() {
+		return stages;
+	}
+
+	public void setStages(ArrayList<Stage> stages) {
+		this.stages = stages;
+	}
 }
+
